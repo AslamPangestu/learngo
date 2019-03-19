@@ -2,9 +2,12 @@ package main;
 
 import (
 	"log"
+
+	db "./db"
 )
 
 
 func main()  {
-	log.Printf("Testing\n");
+	log.Printf("Testing\n")
+	db.Connect()
 }
